@@ -2,9 +2,9 @@ var Uber = require('node-uber');
 
 // create new Uber instance
 var uber = new Uber({
-    client_id: 'YOUR CLIENT ID',
-    client_secret: 'YOUR CLIENT SECRET',
-    server_token: 'YOUR SERVER TOKEN',
+    client_id: 'xfXqheRDSsxNjN1rYDS_fAVFQ9AqFDAQ',//'YOUR CLIENT ID'
+    client_secret: 'CnEyObtbc4yTYonxLbfua4SYNBfJ2z07Ybv-1SKz',//'YOUR CLIENT SECRET'
+    server_token: '8ZFnJ_pXg0a6uSn-M6hXVJ1knUuvmuqdG6fE5tj_',//'YOUR SERVER TOKEN'
     redirect_uri: 'http://localhost/callback',
     name: 'nodejs uber wrapper',
     language: 'en_US',
